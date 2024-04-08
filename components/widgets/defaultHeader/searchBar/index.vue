@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import {ref} from 'vue'
-import PrimaryLink from "~/components/ui/PrimaryLink.vue";
+
 import HeaderLogo from "~/components/widgets/defaultHeader/searchBar/HeaderLogo.vue";
 import SearchInput from "~/components/widgets/defaultHeader/searchBar/SearchInput.vue";
-import CustomBtn from "~/components/ui/CustomBtn.vue";
+import PrimaryLink from "~/components/global/ui/PrimaryLink.vue";
 
 
 defineProps(['menuItems'])
@@ -25,7 +25,6 @@ defineProps(['menuItems'])
             <v-list>
               <v-list-item
                   v-for="item in menuItems" :key="item.label"
-
               >
                 <v-list-item-title>
                   <primary-link :to="item.link"
