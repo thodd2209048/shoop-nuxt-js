@@ -8,12 +8,10 @@ import CustomBtn from "~/components/ui/CustomBtn.vue";
     <input class="searchInput w-full flex-grow"/>
     <custom-btn primary-btn
                 class="py-1 px-4 sm:px-5 h-[42px] flex primaryBtn rounded">
-      <v-icon color="white" size="large" icon="mdiMagnify" class="size-6"></v-icon>
+      <Icon name="simple-line-icons:magnifier" color="white" size="medium"/>
     </custom-btn>
   </div>
 </template>
-
-
 
 <style lang="scss" scoped>
 .searchInput{
