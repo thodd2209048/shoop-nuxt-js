@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import CustomBtn from "~/components/ui/CustomBtn.vue";
+import CustomBtn from "~/components/global/ui/CustomBtn.vue";
 </script>
 
 <template>
