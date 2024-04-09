@@ -1,7 +1,7 @@
 <script setup>
 
 import ContainerWrapper from "../ContainerWrapper.vue";
-import ReverseTheRight from "./ReverseTheRight.vue";
+import ReverseTheRight from "../../ReverseTheRight.vue";
 import {regions} from "~/states/regions.ts";
 
 </script>

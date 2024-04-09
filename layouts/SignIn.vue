@@ -1,7 +1,5 @@
 <script setup lang="ts">
-definePageMeta({
-  layout: 'sign-up'
-})
+
 </script>
 
 <template>
@@ -13,7 +11,7 @@ definePageMeta({
       </v-container>
 
       <v-footer>
-        <widgets-default-footer></widgets-default-footer>
+        <widgets-sign-in-footer></widgets-sign-in-footer>
       </v-footer>
     </v-main>
   </v-layout>

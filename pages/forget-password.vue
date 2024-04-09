@@ -11,6 +11,10 @@ defineProps({
     default: false
   }
 })
+
+definePageMeta({
+  layout: 'sign-in'
+})
 const handleSubmit = (v: object) => {
   console.log("submit")
   console.log('values: ', v)
